@@ -12,7 +12,9 @@ public class Intersection {
                     System.out.print(array1[i] + " ");
                     break;
                 }
+
             }
+
         }
     }
     public static void main(String[] args) {
