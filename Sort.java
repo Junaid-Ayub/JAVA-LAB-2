@@ -9,11 +9,9 @@ public class Sort{
             for(int j=0; j<7; j++){
                 if(array[j] > array[j+1]){
                     int temp = array[j];
-                    System.out.println(array[j] + " " + array[j+1]);
                     array[j] = array[j+1];
-                    System.out.println(array[j] + " " + array[j+1]);
                     array[j+1] = temp;
-                    System.out.println(array[j] + " " + array[j+1]);
+
 
                 }
             }
